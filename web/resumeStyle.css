@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2016, 2:03:05 PM
+    Author     : etherdesign
+*/
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    padding: 60px 150px 60px 150px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    width: 100%;
+    min-width: 100%;
+}
+
+.hline {
+   display: block;
+   position: relative;
+   top: -10px;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #000000;
+   /*border-bottom: 1px solid #ffffff;*/
+}
+
+#name {
+    font-weight: 700;
+    font-size: 1.7em;
+    /*float: left;*/
+    text-align: left;
+}
+
+#phone {
+    font-weight: 300;
+    font-size: 1.4em;
+    float: right;
+    /*text-align: right;*/
+    position: relative;
+    top: 10px;
+}
+
+#top {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+#contactInfo {
+    text-align: right;
+}
+
+.underline {
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.boldItalic {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.date {
+    float: right;
+}
+
+#summary {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: -5px;
+}
+
+#certs {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: -5px;
+}
+
+#jobs {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: -5px;
+}
